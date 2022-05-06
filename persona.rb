@@ -68,3 +68,15 @@ class Student < Person
     puts "Hola profesor. Mi nombre es #{@first_name} #{@last_name}."
    end
 end
+puts "\n"
+yoAlumno = Student.new('Eustaquio', 'Marquez', 16, 'Student')
+yoAlumno.talk
+yoAlumno.introduce
+puts "\n"
+yoProfesor = Teacher.new('Dominga', 'Perez', 36, 'Teacher')
+yoProfesor.talk
+yoProfesor.introduce
+puts "\n"
+yoApoderado = Parent.new('Patricia', 'Carrasco', 42, 'Parent')
+yoApoderado.talk
+yoApoderado.introduce
